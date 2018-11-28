@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    /* border: 1px solid; */
+    font-size: 1.5rem; 
+    font-family: 'Nunito',  sans-serif;
+    text-align:center;
+    margin: 0 auto;
+    width: 70%;
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1vh;
+    overflow: hidden;
+}
+
+nav a{
+    text-decoration : none;
+    color : #353535;
+    border: 0px;
+    padding: 0 1%; 
+    padding:0 !important;
+}
+
+nav .active{
+border-bottom : 4px solid #FDC300;
+
+}
+
+nav a img.logo{
+    width: 30vh; 
+    margin-right: 1vw;
+}
+
+nav a img.icon-house{
+    width:3vh;     
+}
+
+.trigger{
+    width:5vh;
+}
+
+/* icon trigger */
+nav .icon{
+    display: none;
+}
+nav .mobile-menu{
+    display:none;
+}
+
+@media screen and (max-width: 600px) {
+    nav a
+    
+    /* icon trigger */
+    nav .icon{
+        display: block;
+    }
+    nav{
+        border:1px solid;
+        width:85%;
+    }
+
+    nav .link-mobile{
+        display: block!important;
+        float: left !important;
+    }
+
+    nav .mobile-menu{
+        display:none;
+    }
+
+  }
+  
