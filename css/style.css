@@ -36,7 +36,9 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .ariane img {
-    
+    width: 3vh;
+    height: auto;
+    padding-top: 5px;
 }
 .mugshot {
    text-align: center;
