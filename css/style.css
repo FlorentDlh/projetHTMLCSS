@@ -30,6 +30,11 @@ body {
     margin: 3% 0 3% 0;
     font-family: 'Montserrat', sans-serif;
 }
+#ariane img {
+    width: 40px;
+    height: auto;
+    padding-top: 5px;
+}
 #jaune{
     top : 30px;
     right: 20px;
@@ -51,7 +56,6 @@ body {
     text-transform: uppercase;
 }
 #jaune hr {
-    display: block;
     border: 1px;
     width: 100px;
     border-style: solid;
@@ -68,7 +72,7 @@ body {
 }
 
 
-h1{ 
+.indiscretion h1{ 
     padding: 0!important;
     margin: 0;
     margin-right: 150px;
@@ -78,4 +82,55 @@ h1{
 .image {
     width: 100%;
     height: auto;
+}
+#fin {
+    margin-block-end: 5em;
+}
+.social {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+
+}
+#separateur hr {
+    margin-left: 0;
+    margin-bottom: 0;
+    border: 2px;
+    border-style: solid;
+    width: 65px;
+    border-color: #ffdc00;
+}
+.social h2{
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-right: 30px;
+    color: #575859;
+    margin-top: 10px;
+}
+.socialmedia {
+    padding: 20px;
+    padding-right: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    height: 0px;
+    margin-top: 5px;
+    text-decoration: none;
+    color: white;
+}
+.socialmedia img {
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+}
+#facebook {
+    background: #39579a;
+}
+#twitter {
+    background: #00abf0;
+}
+#google {
+    background: #df4a32;
 }
