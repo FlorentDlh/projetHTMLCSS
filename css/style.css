@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Nunito');
 @import url('https://fonts.googleapis.com/css?family=Montserrat');
 
+
+*{
+    transition: 0.3s;
+}
 html{
     font-size: 62.5%;
 }
@@ -11,13 +15,12 @@ body{
 }
 
 nav{
-    /* border: 1px solid; */
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     font-family: 'Nunito',  sans-serif;
     text-align:center;
     margin: 0 auto;
     width: 70%;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
     align-items: center;
     padding-top:1vh;
@@ -27,15 +30,20 @@ nav{
 nav a{
     text-decoration : none;
     color : #353535;
-    border: 0px;
-    padding: 0 1%; 
-    padding:0 !important;
+    border: 0px; 
+    padding:0 1vw;!important;
+    
 }
 
-nav .active{
+nav .active, nav a:hover:not(:first-child){
 border-bottom : 4px solid #FDC300;
 
 }
+
+.icon:hover{
+    border: none!important; 
+}
+
 
 nav a img.logo{
     width: 30vh; 
@@ -51,33 +59,67 @@ nav a img.icon-house{
 }
 
 /* icon trigger */
-nav .icon{
+nav .icon, nav .mobile-menu{
     display: none;
 }
-nav .mobile-menu{
-    display:none;
+
+
+
+
+@media screen and (max-width: 1300px) {
+    nav{
+        width:90vw;
+    }
 }
 
-@media screen and (max-width: 600px) {
-    nav a
+@media screen and (max-width: 1040px) {
+    nav{
+        width:95vw;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    nav{
+        width:99vw;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .none{
+        display: none;
+    }
     
     /* icon trigger */
     nav .icon{
         display: block;
+        padding:0 !important;
     }
-    nav{
-        border:1px solid;
-        width:85%;
-    }
-
-    nav .link-mobile{
-        display: block!important;
-        float: left !important;
+    .link-menu{
+        display: block;
+        padding : 1vh 0 ! important;
     }
 
-    nav .mobile-menu{
-        display:none;
+    nav {
+        display:block;
+        
+    }
+    nav a:first-child, nav a:nth-child(2){
+
+        display: inline-flex;
+        align-items: center;
+
     }
 
+    nav a:nth-child(2){    
+        margin-right:-10vw;
+        margin-left: 10vw;
+        margin-top: 3vh; 
+        vertical-align:top
+    }
+    nav a:first-child{
+        margin-left: -10vw;      
+    }
+
+        
   }
   
