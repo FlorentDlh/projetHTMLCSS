@@ -1,0 +1,24 @@
+@import url()
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal
+}
+
+#fondgris {
+    position : absolute;
+    z-index: 1;
+    width: 100%;
+    height: 40em;
+    background-color: #f0f6ff;
+}
+
+#content {
+    position: absolute;
+    z-index: 2;
+    width : 56%;
+    margin-left : 22%;
+}
