@@ -1,12 +1,67 @@
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
 .container{
     margin: 0 auto;
-    width: 85vw;
+    width: 56vw;
     border: 1px solid;
 }
 
-h1{
+.sec-hc h1{
     font-family: 'Montserrat', sans-serif;
     text-transform: uppercase;
     font-weight: bold;
+    color: #575859;
+}
 
+.sec-hc h1 b{
+    border-top: 2px solid #ffdc00; 
+    padding-top : 1.4vh;
+}
+
+.sec-hc section{
+/*     border:1px solid;  */
+    display:flex; 
+    
+}
+
+.sec-hc section article{
+    border:8px solid #ffdc00;
+    background-color: #ffdc00;
+    justify-content:space-between;
+    width:13vw;
+    height: 13vw;
+    align-items:stretch;
+}
+
+.sec-hc section article:not(:first-child){
+    margin-left:4%;
+
+}
+.sec-hc section figure{
+    margin: 0;
+}
+.sec-hc section .microphone{
+    text-transform:uppercase;
+}
+.sec-hc section .microphone figure{
+/*     border:1px solid; */
+    padding : 2vh;
+    text-align:center;
+}
+
+.sec-hc section .microphone figure img{
+    width: 8vw;
+    
+}
+
+.sec-hc section .microphone figcaption{
+    /* border:1px solid; */
+    border-bottom: 2px solid #020202;
+    height:5vh;
+    margin-top:2vh;
+    width: 65%;
+    margin-left:20%;
+    
 }
