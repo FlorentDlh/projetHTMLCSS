@@ -4,7 +4,7 @@ body{
 
 .container{
     margin: 0 auto;
-    width: 80%;
+    width: 56%;
     border: 1px solid;
 }
 
@@ -15,22 +15,29 @@ body{
     color: #575859;
 }
 
-.sec-hc h1 b{
-    border-top: 2px solid #ffdc00; 
-    padding-top : 1.4vh;
+.slider{
+    display:flex;
+    justify-content: space-between;
+    text-align:center;
 }
 
-.sec-hc .slider{
-    border:1px solid; 
-    display:flex; 
-    justify-content:space-between;
+.microphone img{
+    width:50%;
 }
 
-.sec-hc figure{
-    background-color: #ffdc00;
+.img-hc, .microphone{
+    border:1px solid red;
+    max-width:18%;
+    max-height:18%;
+}
+.img-hc img{
+    width:100%;
+} 
+.img-hc figcaption{
+    position:relative;
+    display:none;
+}   
+figure{
     margin:0;
-}
-
-.sec-hc div:not(.microphone){
-    border:1px solid;
+    
 }
