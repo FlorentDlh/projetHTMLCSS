@@ -23,20 +23,20 @@ body{
 .sec-hc section{
 /*     border:1px solid;  */
     display:flex; 
-    
+    justify-content:space-between;
 }
 
 .sec-hc section article{
-    border:8px solid #ffdc00;
     background-color: #ffdc00;
-    justify-content:space-between;
+    /* display: flex; */
+ 
     width:13vw;
     height: 13vw;
-    align-items:stretch;
+
 }
 
 .sec-hc section article:not(:first-child){
-    margin-left:4%;
+    margin-left:2%;
 
 }
 .sec-hc section figure{
@@ -52,16 +52,30 @@ body{
 }
 
 .sec-hc section .microphone figure img{
-    width: 8vw;
+    width: 6vw;
     
 }
 
 .sec-hc section .microphone figcaption{
     /* border:1px solid; */
     border-bottom: 2px solid #020202;
-    height:5vh;
-    margin-top:2vh;
-    width: 65%;
-    margin-left:20%;
-    
+    height:7vh;
+    margin-top:3vh;
+    width: 70%;
+    margin-left:15%;
+}
+
+.sec-hc article:not(.microphone) figure img{
+    width: 12vw;
+    border:8px solid #ffdc00;
+    position:relative;
+}
+
+.sec-hc article:not(.microphone) figcaption{
+    background-color: #2f374b;
+    color:#f2f2f4;
+    width:92.5%;
+    margin: 0 auto;
+    margin-top:-8.5vh;
+    position:relative
 }
