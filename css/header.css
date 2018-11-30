@@ -21,10 +21,13 @@ nav a{
     text-decoration : none;
     color : #353535;
     border: 0px; 
-    display:inline-block !important;
+    display:inline-block;
 }
 nav a:not(:first-child){
     margin:0 1vw!important;
+}
+nav a img{
+    display: block;
 }
 /* effet active/hover border jaune des liens */
 nav .active, nav a:hover:not(:first-child){
@@ -57,7 +60,20 @@ nav .icon, nav .mobile-menu{
     display: none !important;
 }
 
-
+/* css chevron/arrow */
+i {
+    border: solid #6b6967;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom:2px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 /* en dessous de 1300px */
 @media screen and (max-width: 1300px) {
