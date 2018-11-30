@@ -1,88 +1,20 @@
-@charset "UTF-8";
-/* Welcome to Compass.
- * In this file you should write your main styles. (or centralize your imports)
- * Import this file using the following HTML or equivalent:
- * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: inherit;
-  font-size: 100%;
-  vertical-align: baseline;
-}
-
-/* line 22, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-html {
-  line-height: 1;
-}
-
-/* line 24, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-ol, ul {
-  list-style: none;
-}
-
-/* line 26, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-
-/* line 28, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-caption, th, td {
-  text-align: left;
-  font-weight: normal;
-  vertical-align: middle;
-}
-
-/* line 30, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q, blockquote {
-  quotes: none;
-}
-/* line 103, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-q:before, q:after, blockquote:before, blockquote:after {
-  content: "";
-  content: none;
-}
-
-/* line 32, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-a img {
-  border: none;
-}
-
-/* line 116, C:/Ruby25-x64/lib/ruby/gems/2.5.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
-article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
-  display: block;
-}
-
-/* Mixin Footer */
 /*
 Début Footer
 */
-/* line 190, ../sass/screen.scss */
+html{
+  font-size: 62.5%;
+}
+/* line 253, ../sass/screen.scss */
 footer {
   width: 100%;
   height: auto;
 }
-/* line 193, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 footer .alttop_footer {
   background-color: white;
   height: 40vh;
 }
-/* line 196, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 footer .alttop_footer .content_footer {
   background-color: #f0f6ff;
   height: 30vh;
@@ -90,27 +22,28 @@ footer .alttop_footer .content_footer {
   margin-left: 22%;
   margin-top: 10vh;
 }
-/* line 202, ../sass/screen.scss */
+/* line 265, ../sass/screen.scss */
 footer .alttop_footer .content_footer img {
   width: 20%;
   margin-top: 10%;
   margin-left: 5%;
   float: left;
 }
-/* line 208, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 footer .alttop_footer .content_footer .clients {
   width: 45%;
   float: left;
-  padding-top: 9%;
+  padding-top: 7%;
+  font-size: 1.5rem;
   text-align: center;
   font-family: 'Nunito', sans-serif;
 }
-/* line 214, ../sass/screen.scss */
+/* line 277, ../sass/screen.scss */
 footer .alttop_footer .content_footer .clients span {
   font-weight: bold;
   font-family: 'Nunito', sans-serif;
 }
-/* line 219, ../sass/screen.scss */
+/* line 282, ../sass/screen.scss */
 footer .alttop_footer .content_footer .contactez_nous {
   float: right;
   background-color: #2f374a;
@@ -118,31 +51,32 @@ footer .alttop_footer .content_footer .contactez_nous {
   margin-right: 3%;
   height: 12vh;
 }
-/* line 225, ../sass/screen.scss */
+/* line 288, ../sass/screen.scss */
 footer .alttop_footer .content_footer .contactez_nous p {
   text-align: center;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
   margin-top: 6%;
+  font-size: 1.3rem;
   color: #ffdc00;
   font-weight: lighter;
   font-family: 'Nunito', sans-serif;
 }
-/* line 233, ../sass/screen.scss */
+/* line 296, ../sass/screen.scss */
 footer .alttop_footer .content_footer .contactez_nous p .first {
-  font-size: 4vh;
+  font-size: 3rem;
 }
-/* line 236, ../sass/screen.scss */
+/* line 299, ../sass/screen.scss */
 footer .alttop_footer .content_footer .contactez_nous p .second {
   font-size: 1.5vh;
 }
-/* line 243, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 footer .top_footer {
   background-color: #38435b;
   display: flex;
   justify-content: row;
 }
-/* line 247, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 footer .top_footer .left {
   margin-left: 22%;
   width: 26%;
@@ -162,13 +96,15 @@ footer .top_footer .left h4 {
   margin-left: 9vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 130%;
+  font-size: 2rem;
+  margin-bottom: 1vh;
 }
 /* line 26, ../sass/screen.scss */
 footer .top_footer .left .yellow {
   color: #ffda00;
   margin-left: 9vw;
   margin-top: 1vh;
+  font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
 }
 /* line 32, ../sass/screen.scss */
@@ -178,23 +114,24 @@ footer .top_footer .left p:not(.yellow) {
   font-weight: lighter;
   margin-top: 3vh;
   margin-left: 9vw;
+  font-size: 1.5rem;
 }
 /* line 39, ../sass/screen.scss */
 footer .top_footer .left button {
   float: right;
-  background-color: white;
+  background-color: #38435b;
   color: #ffda00;
-  border: none;
+  border: 1px solid #ffda00;
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 1vh;
   margin-bottom: 5vh;
 }
-/* line 251, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 footer .top_footer .right {
   margin-left: 4%;
-  width: 27%;
+  width: 26%;
 }
 /* line 11, ../sass/screen.scss */
 footer .top_footer .right img {
@@ -211,13 +148,15 @@ footer .top_footer .right h4 {
   margin-left: 9vw;
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  font-size: 130%;
+  font-size: 2rem;
+  margin-bottom: 1vh;
 }
 /* line 26, ../sass/screen.scss */
 footer .top_footer .right .yellow {
   color: #ffda00;
   margin-left: 9vw;
   margin-top: 1vh;
+  font-size: 1.5rem;
   font-family: 'Montserrat', sans-serif;
 }
 /* line 32, ../sass/screen.scss */
@@ -227,26 +166,27 @@ footer .top_footer .right p:not(.yellow) {
   font-weight: lighter;
   margin-top: 3vh;
   margin-left: 9vw;
+  font-size: 1.5rem;
 }
 /* line 39, ../sass/screen.scss */
 footer .top_footer .right button {
   float: right;
-  background-color: white;
+  background-color: #38435b;
   color: #ffda00;
-  border: none;
+  border: 1px solid #ffda00;
   padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   margin-top: 1vh;
   margin-bottom: 5vh;
 }
-/* line 256, ../sass/screen.scss */
+/* line 319, ../sass/screen.scss */
 footer .footer_middle {
   background-color: #2f3749;
   display: flex;
   justify-content: row;
 }
-/* line 260, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 footer .footer_middle .altleft {
   width: 16%;
   margin-left: 22%;
@@ -267,6 +207,8 @@ footer .footer_middle .altleft h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 1vh;
 }
 /* line 67, ../sass/screen.scss */
 footer .footer_middle .altleft p {
@@ -274,10 +216,10 @@ footer .footer_middle .altleft p {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
+  font-size: 1.5rem;
 }
 /* line 73, ../sass/screen.scss */
 footer .footer_middle .altleft input {
-  margin-top: 4vh;
   background-color: #3c465f;
   color: white;
   padding-top: 10px;
@@ -294,7 +236,7 @@ footer .footer_middle .altleft ::placeholder {
 /* line 87, ../sass/screen.scss */
 footer .footer_middle .altleft .button_news {
   width: 20%;
-  height: 60px;
+  height: 22.3%;
   background-color: white;
   border: none;
   color: #3c465f;
@@ -408,7 +350,7 @@ footer .footer_middle .altleft .button_download p {
   margin-left: 25%;
   margin-top: 0.2vh;
 }
-/* line 266, ../sass/screen.scss */
+/* line 329, ../sass/screen.scss */
 footer .footer_middle .middle {
   width: 16%;
   margin-left: 2%;
@@ -428,6 +370,8 @@ footer .footer_middle .middle h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 1vh;
 }
 /* line 67, ../sass/screen.scss */
 footer .footer_middle .middle p {
@@ -481,6 +425,7 @@ footer .footer_middle .middle .top_socials .soc1 img {
 footer .footer_middle .middle .top_socials .soc1 p {
   margin-top: 1vh;
   text-align: center;
+  font-size: 1.5rem;
 }
 /* line 111, ../sass/screen.scss */
 footer .footer_middle .middle .top_socials .soc2 {
@@ -495,6 +440,7 @@ footer .footer_middle .middle .top_socials .soc2 img {
 /* line 118, ../sass/screen.scss */
 footer .footer_middle .middle .top_socials .soc2 p {
   margin-top: 1vh;
+  font-size: 1.5rem;
   text-align: center;
 }
 /* line 123, ../sass/screen.scss */
@@ -510,6 +456,7 @@ footer .footer_middle .middle .top_socials .soc3 img {
 /* line 130, ../sass/screen.scss */
 footer .footer_middle .middle .top_socials .soc3 p {
   margin-top: 1vh;
+  font-size: 1.5rem;
   text-align: center;
 }
 /* line 137, ../sass/screen.scss */
@@ -531,6 +478,7 @@ footer .footer_middle .middle .bot_socials .soc4 img {
 /* line 148, ../sass/screen.scss */
 footer .footer_middle .middle .bot_socials .soc4 p {
   margin-top: 1vh;
+  font-size: 1.5rem;
   text-align: center;
 }
 /* line 153, ../sass/screen.scss */
@@ -547,6 +495,7 @@ footer .footer_middle .middle .bot_socials .soc5 img {
 /* line 161, ../sass/screen.scss */
 footer .footer_middle .middle .bot_socials .soc5 p {
   margin-top: 1vh;
+  font-size: 1.5rem;
   text-align: center;
 }
 /* line 167, ../sass/screen.scss */
@@ -569,7 +518,7 @@ footer .footer_middle .middle .button_download p {
   margin-left: 25%;
   margin-top: 0.2vh;
 }
-/* line 271, ../sass/screen.scss */
+/* line 334, ../sass/screen.scss */
 footer .footer_middle .altright {
   width: 16%;
   margin-left: 2%;
@@ -589,6 +538,8 @@ footer .footer_middle .altright h5 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-transform: uppercase;
+  font-size: 2rem;
+  margin-top: 1vh;
 }
 /* line 67, ../sass/screen.scss */
 footer .footer_middle .altright p {
@@ -596,6 +547,7 @@ footer .footer_middle .altright p {
   color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: lighter;
+  font-size: 1.5rem;
 }
 /* line 73, ../sass/screen.scss */
 footer .footer_middle .altright input {
@@ -712,7 +664,7 @@ footer .footer_middle .altright .bot_socials .soc5 p {
 }
 /* line 167, ../sass/screen.scss */
 footer .footer_middle .altright .button_download {
-  margin-top: 6vh;
+  margin-top: 2vh;
   background-color: #2f3749;
   border: 2px solid white;
   padding: 10px;
@@ -729,20 +681,23 @@ footer .footer_middle .altright .button_download p {
   text-align: left;
   margin-left: 25%;
   margin-top: 0.2vh;
+  margin-bottom: 0;
 }
-/* line 277, ../sass/screen.scss */
+/* line 340, ../sass/screen.scss */
 footer .footer_bottom {
   border-top: 5px solid #ffdc00;
   background-color: #2f3749;
   height: 6vh;
 }
-/* line 281, ../sass/screen.scss */
+/* line 344, ../sass/screen.scss */
 footer .footer_bottom p {
   text-align: center;
   color: white;
   margin-top: 1.5vh;
+  font-size: 1.5rem;
+  margin-bottom: 0;
 }
-/* line 285, ../sass/screen.scss */
+/* line 348, ../sass/screen.scss */
 footer .footer_bottom p a {
   text-decoration: none;
   color: white;
