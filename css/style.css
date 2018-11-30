@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /*  */
 =======
 @import url()
@@ -86,6 +87,40 @@ body {
     margin: 3% 0 3% 0;
     font-family: 'Montserrat', sans-serif;
 }
+=======
+@import url()
+
+html {
+    font-size: 62.5%;
+}
+
+#fondgris {
+    position : absolute;
+    z-index: 1;
+    width: 100%;
+    height: 40em;
+    background-color: #f0f6ff;
+}
+body {
+    font-family: 'Nunito', sans-serif;
+    font-style: normal
+}
+#content {
+    position: absolute;
+    z-index: 2;
+    width : 56%;
+    margin-left : 22%;
+}
+#ariane {
+    display: flex;
+    align-items: center;
+    color: #575859;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 3% 0 3% 0;
+    font-family: 'Montserrat', sans-serif;
+}
+>>>>>>> parent of 09b429c... v1.1
 #ariane img {
     width: 40px;
     height: auto;
@@ -107,6 +142,9 @@ body {
 #jaune img{
     height: auto;
     width: 50px;
+<<<<<<< HEAD
+>>>>>>> parent of 09b429c... v1.1
+=======
 >>>>>>> parent of 09b429c... v1.1
 }
 #jaune p {
@@ -120,6 +158,7 @@ body {
 
 }
 #bleu {
+<<<<<<< HEAD
 <<<<<<< HEAD
   background-color: #2f374b;
   color: #ffdc00;
@@ -143,12 +182,25 @@ body {
     margin-bottom: 20px;
 }
 
+=======
+    background-color: #2f374b;
+    color: #ffdc00;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 65%;
+    margin-bottom: 20px;
+}
+
+>>>>>>> parent of 09b429c... v1.1
 
 .indiscretion h1{ 
     padding: 0!important;
     margin: 0;
     margin-right: 150px;
     font-size: 3em;
+<<<<<<< HEAD
+>>>>>>> parent of 09b429c... v1.1
+=======
 >>>>>>> parent of 09b429c... v1.1
 }
 
@@ -195,9 +247,15 @@ body {
 }
 .socialmedia img {
 <<<<<<< HEAD
+<<<<<<< HEAD
   height: 2vh;
   width: auto;
   margin-right: 10px;
+=======
+    height: 20px;
+    width: auto;
+    margin-right: 10px;
+>>>>>>> parent of 09b429c... v1.1
 =======
     height: 20px;
     width: auto;
