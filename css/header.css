@@ -8,7 +8,7 @@ nav{
     text-align:center;
     margin: 0 auto;
     width: 70%;
-    display: flex;
+    display: flex !important;
     justify-content: space-between;
     align-items: center;
     padding-top:1vh;
@@ -22,10 +22,10 @@ nav a{
     color : #353535;
     border: 0px; 
     margin:0 1vw!important;
-    display:inline-block;
+    display:inline-block !important;
 }
 nav a img{
-    display: block;
+    display: block !important;
 }
 /* effet active/hover border jaune des liens */
 nav .active, nav a:hover:not(:first-child){
@@ -55,7 +55,7 @@ nav a img.icon-house{
 
 /* icon trigger */
 nav .icon, nav .mobile-menu{
-    display: none;
+    display: none !important;
 }
 
 
@@ -84,25 +84,25 @@ nav .icon, nav .mobile-menu{
 /* en dessous de 800px */
 @media screen and (max-width: 800px) {
     .none{
-        display: none;
+        display: none !important;
     }
     
     /* icon trigger */
     nav .icon{
-        display: block;
+        display: block !important;
         padding:0 !important;
     }
     .link-menu{
-        display: block;
+        display: block !important;
         padding : 1vh 0 ! important;
     }
 
     nav {
-        display:block;      
+        display:block;      !important 
     }
     /* pour le logo et le trigger */
     nav a:first-child, nav a:nth-child(2){
-        display: inline-flex;
+        display: inline-flex !important;
         align-items: center;
     }
     /* pour la position du trigger  */
