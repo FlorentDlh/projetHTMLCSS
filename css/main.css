@@ -4,9 +4,11 @@
 @import './header.css'; /* import du fichier css du header */
 @import './hors-course.css'; /* import du fichier css du hors course */
 @import './indiscretion.css'; /* import du fichier css de indiscretion */
+@import './footer.css';
 
 *{
     transition: 0.3s;
+    box-sizing: border-box;
 }
 html{
     font-size: 62.5%;
@@ -17,7 +19,9 @@ body{
     padding: 0;
     margin: 0;
 }
-
+a {
+    text-decoration: none;
+}
 /* set du container à 56% */
 .container{
     margin: 0 auto;
