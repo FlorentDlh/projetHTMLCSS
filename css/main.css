@@ -4,6 +4,7 @@
 @import './header.css'; /* import du fichier css du header */
 @import './hors-course.css'; /* import du fichier css du hors course */
 @import './team-list.css';
+@import './footer.css';
 
 *{
     transition: 0.3s;
@@ -22,4 +23,8 @@ body{
 .container{
     margin: 0 auto;
     width: 62%;
+}
+
+* {
+    box-sizing: border-box;
 }

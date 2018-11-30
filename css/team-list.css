@@ -20,7 +20,7 @@ body {
 }
 /* On définit les marges l'affichage du contenu et les marges  */
 .content {
-  position: absolute;
+  position: relative;
   z-index: 2;
   width: 56%;
   margin-left: 22%;
