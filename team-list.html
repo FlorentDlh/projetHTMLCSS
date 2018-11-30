@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+  <link rel="stylesheet" href="./css/main.css" />
+  <title>Direct Energie</title>
+
+</head>
+
+<body>
+    <header>
+        <!-- Menu / Nav -->
+        <nav>
+            <a href="./index.html">
+                <img src="./img/logo.png" class="logo" alt="logo">
+            </a>
+            <!-- Menu burger qui apparait sur mobile uniquement -->
+            <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                <img src="./img/menu.svg" alt="trigger menu" class="trigger">
+            </a>
+
+            <a href="./index.html" class="none"><img src="./img/home.svg" alt="icon house" class="icon-house"></a>
+            <a href="#" class="none">Actualité</a>
+            <a href="./hors-course.html" class="none">Hors-course</a>
+            <a href="#" class="none">Calendrier</a>
+            <a href="./team-list.html" class="none active">L'équipe 2016</a>
+            <a href="#" class="none">Galerie</a>
+            <a href="#" class="none">Social live</a>
+            <a href="#" class="none">Partenaires</a>
+
+        </nav>
+
+
+    </header>
+  <!--
+        On créé le background gris en premier pour le positionner derrière et s'affranchir des limitations du css du content
+      -->
+  <div class="fondgris"></div>
+  <!--
+        On créé une div générale pour le contenu de la page afin de maitriser le positionnement général
+      -->
+  <div class="content">
+    <hr />
+    <!-- On créé une div pour le fil d'ariane -->
+    <div class="ariane">
+      <h1>
+        l'équipe <img src="./img/team-list/right-arrow.svg" alt="flèche" /> les
+        coureurs
+      </h1>
+    </div>
+    <!-- On créé la div contenant l'ensemble des cartes -->
+    <div>
+      <!--
+            On créé les div de chaque ligne qu'on répliquera autant que nécessaire
+          -->
+      <div class="ligne">
+        <!--
+              On créé les cartes des coureurs, qu'on répliquera autant que nécessaire
+            -->
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Jérome Cousin</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Antoine Duchesne</p>
+          <hr />
+        </div>
+      </div>
+      <!-- Fin de la première ligne -->
+      <div class="ligne">
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Jérome Cousin</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Antoine Duchesne</p>
+          <hr />
+        </div>
+      </div>
+      <div class="ligne">
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Jérome Cousin</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Antoine Duchesne</p>
+          <hr />
+        </div>
+      </div>
+      <div class="ligne">
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Jérome Cousin</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Antoine Duchesne</p>
+          <hr />
+        </div>
+      </div>
+      <div class="ligne">
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Jérome Cousin</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Antoine Duchesne</p>
+          <hr />
+        </div>
+      </div>
+      <div class="ligne">
+        <div class="mugshot">
+          <img src="img/team-list/mugshot1.png" alt="Coureur 1" />
+          <p>Natnael Berhane</p>
+          <hr />
+        </div>
+        <div class="mugshot">
+          <img src="img/team-list/mugshot2.png" alt="Coureur 1" />
+          <p>Bryan Coquard</p>
+          <hr />
+        </div>
+      </div>
+    </div>
+    <!-- Fin de la série de ligne -->
+  </div>
+  <!-- Fin de la liste -->
+  <!-- Début du footer -->
+  <footer>
+      <div class="alttop_footer">
+          <div class="content_footer">
+            <img src="./img/footer/logo.png" alt="#">
+            <p class="clients"><span>1,5 milion de clients ont déjà choisi Direct Energie<br>pour l'électricité et le gaz</span><br><br><br>Et
+              vous, où en êtes vous ?</p>
+            <div class="contactez_nous">
+              <p>Contactez-nous au<br><span class="first">3009</span><br><span class="second">Service et appel gratuit</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="top_footer">
+          <div class="left">
+            <img src="./img/footer/xavier.png" alt="PDG">
+            <h4>Xavier Caïtucoli</h4>
+            <p class="yellow">PDG de Direct Energie</p>
+            <p>
+              &laquo; Choisir le cyclisme à travers cette équipe chère aux Français, est pour nous une évidence...</p> <button
+             class="button_footer">lire
+              la suite</button>
+          </div>
+          <div class="right">
+            <img src="./img/footer/jean.png" alt="Manager">
+            <h4>Jean-René Bernaudeau</h4>
+            <p class="yellow">Manager de Direct Energie</p>
+            <p>
+              &laquo; J'ai choisi Direct Energie car je voulais un partenaire qui soit séduit par le travail de fond que je...</p>
+            <button class="button_footer">lire la suite</button>
+          </div>
+        </div>
+        <div class="footer_middle">
+          <div class="altleft">
+            <hr>
+            <h5>newsletter</h5>
+            <p>Recevez par mail les derniers résultats, les prochaines courses et les interviews de la Direct Energie Team</p>
+            <input type="email" name="email" placeholder="votre email">
+            <button class="button_news">ok</button>
+          </div>
+          <div class="middle">
+            <hr>
+            <h5>réseaux sociaux</h5>
+            <div class="top_socials">
+              <div class="soc1">
+                <img src="./img/footer/youtube.png" alt="#">
+                <p>youtube</p>
+              </div>
+              <div class="soc2">
+                <img src="./img/footer/twitter.png" alt="#">
+                <p>twitter</p>
+              </div>
+              <div class="soc3">
+                <img src="./img/footer/instagram.png" alt="#">
+                <p>instagram</p>
+              </div>
+            </div>
+            <div class="bot_socials">
+              <div class="soc4">
+                <img src="./img/footer/facebook.png" alt="#">
+                <p>facebook</p>
+              </div>
+              <div class="soc5">
+                <img src="./img/footer/google.png" alt="#">
+                <p>google+</p>
+              </div>
+            </div>
+          </div>
+          <div class="altright">
+            <hr>
+            <h5>kit de presse</h5>
+            <p>Téléchargez le dossier de presse : Photo des joueurs, communiqué de presse...</p>
+            <button class="button_download"><img src="./img/footer/download.png" alt="#">
+              <p>Télécherger<br>le dossier (33mo)</p>
+            </button>
+          </div>
+        </div>
+        <div class="footer_bottom">
+          <p>© Direct energie Team 2016 Tous Droit Réservés | <a href="#">Mentions Légales</a> | <a href="#">Création du site
+              internet</a></p>
+        </div>
+ 
+        <!-- importe du js servant au menu burger -->
+        <script src="./js/script.js"></script>
+  </footer>
+</body>
+
+</html>
