@@ -226,11 +226,11 @@ footer .footer_middle .altleft input {
   padding-left: 6px;
   border: none;
   width: 70%;
-  height: 57px;
+  height: 59px;
   color: #e3e3e3;
   border: 1.5px solid;
   border-radius:2px;
-}
+} 
 /* line 84, ../sass/screen.scss */
 footer .footer_middle .altleft ::placeholder {
   color: white;
