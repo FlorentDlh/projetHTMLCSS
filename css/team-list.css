@@ -13,7 +13,10 @@ body {
   z-index: 1;
   width: 100%;
   height: 58em;
-  background-color: #f0f6ff;
+  background: #f0f6ff;
+  background-image: url("../img/rondbackground.png");
+  background-repeat: no-repeat;
+  background-position: right 28% bottom 137%;
 }
 /* On définit les marges l'affichage du contenu et les marges  */
 .content {
