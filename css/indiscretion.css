@@ -1,0 +1,151 @@
+/* Définition des polices du document */
+.indiscretion p {
+  font-size: 2em;
+}
+.indiscretion h2 {
+  font-size: 2.5em;
+}
+.indiscretion img {
+  width: 100%;
+  height: auto;
+}
+/* Définition du background */
+.fondgris {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 60%;
+  background: #f0f6ff;
+  background-image: url("../img/rondbackground.png");
+  background-repeat: no-repeat;
+  background-position: right 28% bottom 137%;
+}
+/* Positionnement du contenu sur la page et par rapport au background */
+.content {
+  position: relative;
+  z-index: 2;
+  width: 64%;
+  /* margin-left: 22%; */
+  margin: 0 auto;
+}
+/* Définition du fil d'ariane */
+.ariane {
+  display: flex;
+  align-items: center;
+  color: #575859;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 0 0 3% 0;
+  padding-top: 3%;
+  font-family: "Montserrat", sans-serif;
+}
+.ariane img {
+  width: 5vh;
+  height: auto;
+  padding-top: 5px;
+  margin-right: 5px;
+}
+.ariane a {
+  color: #575859;
+}
+#flèche {
+  width: 2vh;
+  height: auto;
+}
+/* Définition du carré jaune */
+.jaune {
+  margin-top: -11vh;
+  margin-left: 78%;
+  background-color: #ffdc00;
+  /* width: 15.5vh;
+  height: 15.5vh; */
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  padding: 20px;
+  align-items: center;
+  color: #575859;
+}
+.jaune img {
+  height: auto;
+  width: 5vh;
+}
+.jaune p {
+  text-transform: uppercase;
+}
+.jaune hr {
+  border: 1px;
+  width: 100px;
+  border-style: solid;
+  border-color: #575859;
+}
+/* Définition de la zone de titre de l'article */
+.titre {
+  background-color: #2f374b;
+  color: #ffdc00;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 65%;
+  margin-bottom: 2vh;
+}
+.titre h1 {
+  padding: 0 !important;
+  margin: 0;
+  margin-right: 15vh;
+  font-size: 5em;
+}
+/* Définition de la div contenant les réseaux sociaux */
+.social {
+  display: flex;
+  justify-content: flex-start;
+  align-content: center;
+}
+/* Marge avant réseaux sociaux */
+
+.socialmedia {
+  margin-block-start: 10em;
+}
+.socialmedia hr {
+  margin-left: 0;
+  margin-bottom: 0;
+  border: 2px;
+  border-style: solid;
+  width: 65px;
+  border-color: #ffdc00;
+}
+.social h2 {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: 2px;
+  font-size: 2em;
+  text-transform: uppercase;
+  margin-right: 30px;
+  color: #575859;
+  margin-top: 10px;
+}
+/* Définition des boutons de partage, des SVG, de leur police et leur couleur */
+.socialmedias {
+  padding: 20px 45px 20px 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  height: 0px;
+  margin-top: 0px;
+  text-decoration: none;
+  color: white;
+}
+.socialmedias img {
+  height: 2vh;
+  width: auto;
+  margin-right: 10px;
+}
+#facebook {
+  background: #39579a;
+}
+#twitter {
+  background: #00abf0;
+}
+#google {
+  background: #df4a32;
+}
+/* Fin du main */

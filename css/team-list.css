@@ -1,11 +1,3 @@
-/* On définit la police de notre page, sa taille et son style */
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-}
 
 /* On définit le fond gris et son positionnement */
 .fondgris {
@@ -27,7 +19,7 @@ body {
 }
 .content hr {
   margin: 3% 0 0 0;
-  border: 1px;
+  border: 2px;
   border-style: solid;
   width: 9vh;
   border-color: #ffdc00;
