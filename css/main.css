@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+@import './header.css'; /* import du fichier css du header */
+@import './hors-course.css'; /* import du fichier css du hors course */
+
+*{
+    transition: 0.3s;
+}
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+/* set du container à 56% */
+.container{
+    margin: 0 auto;
+    width: 62%;
+}
