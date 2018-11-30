@@ -1,4 +1,5 @@
-/* Définition les polices de la page */
+/* Début du main */
+/* Définition des polices du document */
 html {
   font-size: 62.5%;
 }
@@ -23,7 +24,7 @@ img {
   width: 100%;
   height: 60%;
   background: #f0f6ff;
-  background-image:url('../img/anneau.png');
+  background-image: url("../img/anneau.png");
   background-repeat: no-repeat;
   background-position: right 28% bottom 137%;
 }
@@ -96,15 +97,14 @@ img {
   margin-right: 15vh;
   font-size: 5em;
 }
-/* Marge post */
-#botspace {
-  margin-block-end: 5em;
-}
+/* Définition de la div contenant les réseaux sociaux */
 .social {
   display: flex;
   justify-content: flex-start;
   align-content: center;
 }
+/* Marge avant réseaux sociaux */
+
 .socialmedia {
   margin-block-start: 10em;
 }
@@ -125,6 +125,7 @@ img {
   color: #575859;
   margin-top: 10px;
 }
+/* Définition des boutons de partage, des SVG, de leur police et leur couleur */
 .socialmedias {
   padding: 20px 45px 20px 35px;
   display: flex;
@@ -150,3 +151,4 @@ img {
 #google {
   background: #df4a32;
 }
+/* Fin du main */
