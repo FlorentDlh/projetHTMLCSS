@@ -1,19 +1,12 @@
 /* Début du main */
 /* Définition des polices du document */
-html {
-  font-size: 62.5%;
-}
-body {
-  font-family: "Nunito", sans-serif;
-  font-style: normal;
-}
-p {
+.indiscretion p {
   font-size: 2em;
 }
-h2 {
+.indiscretion h2 {
   font-size: 2.5em;
 }
-img {
+.indiscretion img {
   width: 100%;
   height: auto;
 }
