@@ -20,14 +20,31 @@
 
   <body>
     <header>
+      <!--
+        On créé le background gris en premier pour le positionner derrière et s'affranchir des limitations du css du content
+      -->
       <div class="fondgris"></div>
+      <!--
+        On créé une div générale pour le contenu de la page afin de maitriser le positionnement général
+      -->
       <div class="content">
         <hr />
+        <!-- On créé une div pour le fil d'ariane -->
         <div class="ariane">
-          <h1>l'équipe <img src="./img/right-arrow.svg" alt="flèche" /> les coureurs</h1>
+          <h1>
+            l'équipe <img src="./img/right-arrow.svg" alt="flèche" /> les
+            coureurs
+          </h1>
         </div>
+        <!-- On créé la div contenant l'ensemble des cartes -->
         <div>
+          <!--
+            On créé les div de chaque ligne qu'on répliquera autant que nécessaire
+          -->
           <div class="ligne">
+            <!--
+              On créé les cartes des coureurs, qu'on répliquera autant que nécessaire
+            -->
             <div class="mugshot">
               <img src="img/mugshot1.png" alt="Coureur 1" />
               <p>Natnael Berhane</p>
