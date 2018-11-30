@@ -60,7 +60,20 @@ nav .icon, nav .mobile-menu{
     display: none;
 }
 
-
+/* css chevron/arrow */
+i {
+    border: solid #6b6967;
+    border-width: 0 1.5px 1.5px 0;
+    display: inline-block;
+    padding: 3px;
+    margin-left: 5px;
+    margin-bottom:2px;
+  }
+  
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
 
 /* en dessous de 1300px */
 @media screen and (max-width: 1300px) {
