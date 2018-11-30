@@ -1,0 +1,114 @@
+/* set du nav */
+nav{
+    font-size: 1.5rem;
+    /* font-family: 'Nunito',  sans-serif; */
+    text-align:center;
+    margin: 0 auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top:1vh;
+    overflow: hidden;
+}
+
+/* set des liens du nav */
+nav a{
+    text-decoration : none;
+    color : #353535;
+    border: 0px; 
+    margin:0 1vw!important;
+    display:inline-block;
+}
+
+/* effet active/hover border jaune des liens */
+nav .active, nav a:hover:not(:first-child){
+border-bottom : 4px solid #FDC300;
+
+}
+/* on empêche l'apparition d'une border au hover sur le logo */
+.icon:hover{
+    border: none!important; 
+}
+
+/* on définit la taille du logo */
+nav a img.logo{
+    width: 30vh; 
+    margin-right: 1vw;
+}
+
+/* on définit la taille de l'icon house */
+nav a img.icon-house{
+    width:3vh;     
+}
+
+/* taille de l'icon burger menu */
+.trigger{
+    width:5vh;
+}
+
+/* icon trigger */
+nav .icon, nav .mobile-menu{
+    display: none;
+}
+
+
+
+/* en dessous de 1300px */
+@media screen and (max-width: 1300px) {
+    nav{
+        width:90vw;
+    }
+}
+
+/* en dessous de 1040px */
+@media screen and (max-width: 1040px) {
+    nav{
+        width:95vw;
+    }
+}
+
+/* en dessous de 980px */
+@media screen and (max-width: 980px) {
+    nav{
+        width:99vw;
+    }
+}
+
+/* en dessous de 800px */
+@media screen and (max-width: 800px) {
+    .none{
+        display: none;
+    }
+    
+    /* icon trigger */
+    nav .icon{
+        display: block;
+        padding:0 !important;
+    }
+    .link-menu{
+        display: block;
+        padding : 1vh 0 ! important;
+    }
+
+    nav {
+        display:block;      
+    }
+    /* pour le logo et le trigger */
+    nav a:first-child, nav a:nth-child(2){
+        display: inline-flex;
+        align-items: center;
+    }
+    /* pour la position du trigger  */
+    nav a:nth-child(2){
+        margin-right:-20vw !important;
+        margin-left: 20vw !important;
+        margin-top: 3vh !important;
+        vertical-align:top;
+    }
+    /* pour la position du logo */
+    nav a:first-child{
+        margin-left: -20vw !important;      
+    }     
+  }
+  
