@@ -10,11 +10,5 @@ function mobileMenu() {
        a[i].classList.toggle("none");
        a[i].classList.toggle("link-menu"); 
     }
-        
 
-    // if (x.className === "topnav") {
-    //     x.className += " responsive";
-    // } else {
-    //     x.className = "topnav";
-    // }
 }

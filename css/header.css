@@ -1,4 +1,7 @@
 /* set du nav */
+*{
+    box-sizing: border-box;
+}
 nav{
     font-size: 1.5rem;
     /* font-family: 'Nunito',  sans-serif; */
@@ -10,6 +13,7 @@ nav{
     align-items: center;
     padding-top:1vh;
     overflow: hidden;
+    padding-bottom: 2vh;
 }
 
 /* set des liens du nav */
@@ -20,11 +24,13 @@ nav a{
     margin:0 1vw!important;
     display:inline-block;
 }
-
+nav a img{
+    display: block;
+}
 /* effet active/hover border jaune des liens */
 nav .active, nav a:hover:not(:first-child){
 border-bottom : 4px solid #FDC300;
-
+padding-bottom: 4px;
 }
 /* on empêche l'apparition d'une border au hover sur le logo */
 .icon:hover{
