@@ -3,6 +3,7 @@
 
 @import './header.css'; /* import du fichier css du header */
 @import './hors-course.css'; /* import du fichier css du hors course */
+@import './indiscretion.css'; /* import du fichier css de indiscretion */
 
 *{
     transition: 0.3s;

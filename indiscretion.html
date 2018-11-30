@@ -5,14 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <link rel="stylesheet" href="./css/indiscretion.css" />
+    <link rel="stylesheet" href="./css/main.css" />
     <title>Direct Energie</title>
   </head>
 
   <body>
-    <header>
-
-    </header>
+      <header>
+          <!-- Menu / Nav -->
+          <nav>
+              <a href="#">
+                  <img src="./img/logo.png" class="logo" alt="logo">
+              </a>
+              <!-- Menu burger qui apparait sur mobile uniquement -->
+              <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                  <img src="./img/menu.svg" alt="trigger menu" class="trigger">
+              </a>
+  
+              <a href="#" class="none active"><img src="./img/home.svg" alt="icon house" class="icon-house"></a>
+              <a href="#" class="none">Actualité</a>
+              <a href="./hors-course.html" class="none">Hors-course</a>
+              <a href="#" class="none">Calendrier</a>
+              <a href="#" class="none">L'équipe 2016 <i class="down"></i></a>
+              <a href="#" class="none">Galerie</a>
+              <a href="#" class="none">Social live</a>
+              <a href="#" class="none">Partenaires</a>
+  
+            </nav>
+      </header>
     <!-- Début du contenu de la page -->
     <main class="indiscretion"> 
     <!-- Background de la page -->
@@ -64,5 +83,11 @@
     </main>
     <!-- Fin du contenu de l'article -->
     <!-- Début du footer -->
+    <footer>
+
+        <!-- importe du js servant au menu burger -->
+        <script src="./js/script.js"></script>
+    </footer>
   </body>
+  
 </html>
