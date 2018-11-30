@@ -21,10 +21,11 @@ nav a{
     text-decoration : none;
     color : #353535;
     border: 0px; 
-    margin:0 1vw!important;
     display:inline-block !important;
 }
-
+nav a:not(:first-child){
+    margin:0 1vw!important;
+}
 /* effet active/hover border jaune des liens */
 nav .active, nav a:hover:not(:first-child){
 border-bottom : 4px solid #FDC300;
