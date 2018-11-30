@@ -4,6 +4,47 @@ DÃ©but Footer
 html{
   font-size: 62.5%;
 }
+
+.fond_gris2 .content_index3 .course_container .course_1 img {
+  width: 100%;
+ }
+ 
+ _:-ms-lang(x), footer .footer_middle .altleft .button_news {
+  background-color: rgba(255,255,255,0);
+ }
+ 
+ _:-ms-lang(x), .fond_gris1 .content_index1 hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), .content_index2 hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), .fond_gris2 .content_index3 hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), .content_index4 .index_4left hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), .content_index4 .index_4right hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), footer .footer_middle .altleft hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), footer .footer_middle .middle hr {
+  text-align: left;
+ }
+ 
+ _:-ms-lang(x), footer .footer_middle .altright hr {
+  text-align: left;
+ }
+ 
 /* line 253, ../sass/screen.scss */
 footer {
   width: 100%;
