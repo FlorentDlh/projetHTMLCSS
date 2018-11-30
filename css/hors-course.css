@@ -1,3 +1,7 @@
+.sec-hc a{
+    text-decoration: none;  
+    color: #2f374b;
+}
 /* div contenant les 4 autres div avec images */
 .sec-hc{
     padding-bottom:5%;
